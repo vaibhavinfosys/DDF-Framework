@@ -21,8 +21,8 @@ public class SignUp_Step2 {
 			
 				
 			     
-			     public void EnetrBusinessName() {
-			    	 enterBuisenessname.sendKeys("IT Product and Support");
+			     public void EnetrBusinessName(String buisnessName) {
+			    	 enterBuisenessname.sendKeys(buisnessName);
 			 	}
 			     
 			     public void ClickOnNextbutton() {

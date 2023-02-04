@@ -31,23 +31,23 @@ public class SignUp_page {
 			
 				// signUp the page
 			   
-			     public void EnterName() {
-			    	 enterName.sendKeys("akshay"); 	 
+			     public void EnterName(String name) {
+			    	 enterName.sendKeys(name); 	 
 			 	}
 			     
-			     public void EnterEmailID() { 
-			    	 enterEmail.sendKeys("salmankhan12356@gmail.com");	 
+			     public void EnterEmailID(String emailId) { 
+			    	 enterEmail.sendKeys(emailId);	 
 			     }
 			     
-			     public void EnterPassWord() { 
-			    	 enterpass.sendKeys("Salman@12654");
+			     public void EnterPassWord(String password) { 
+			    	 enterpass.sendKeys(password);
 			     }
 			     
 			     
 			   
 
-			     public void EnterePhoneNumber() {
-			    	 enterPhone.sendKeys("8208111978");	 
+			     public void EnterePhoneNumber(String password) {
+			    	 enterPhone.sendKeys(password);	 
 			 	}
 			     
 			     public void ClickOnLogInButton() { 

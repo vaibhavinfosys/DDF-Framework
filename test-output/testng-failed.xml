@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.yelo.testcases.TC1_Verfy_SignUp">
+      <class name="com.yelo.testcases.TC3_Verify_AddProduct">
         <methods>
+          <include name="AddProduct"/>
+          <include name="login"/>
+          <include name="logout"/>
           <include name="setup"/>
-          <include name="EnterSignUpPage"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.yelo.testcases.TC1_Verfy_SignUp -->
+      </class> <!-- com.yelo.testcases.TC3_Verify_AddProduct -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
