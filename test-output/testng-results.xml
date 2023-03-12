@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-28T20:44:05 IST" name="Default suite" finished-at="2023-01-28T20:44:39 IST" duration-ms="33774">
+  <suite started-at="2023-02-13T21:05:34 IST" name="Default suite" finished-at="2023-02-13T21:06:25 IST" duration-ms="51154">
     <groups>
     </groups>
-    <test started-at="2023-01-28T20:44:05 IST" name="Default test" finished-at="2023-01-28T20:44:39 IST" duration-ms="33774">
-      <class name="com.yelo.testcases.TC3_Verify_AddProduct">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.yelo.testcases.TC3_Verify_AddProduct@202b0582]" started-at="2023-01-28T20:44:05 IST" name="setup" finished-at="2023-01-28T20:44:16 IST" duration-ms="11072" status="PASS">
+    <test started-at="2023-02-13T21:05:34 IST" name="Default test" finished-at="2023-02-13T21:06:25 IST" duration-ms="51154">
+      <class name="com.yelo.testcases.TC2_Verify_LogIn">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.yelo.testcases.TC2_Verify_LogIn@202b0582]" started-at="2023-02-13T21:05:34 IST" name="setup" finished-at="2023-02-13T21:06:14 IST" duration-ms="40090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.yelo.testcases.TC3_Verify_AddProduct@202b0582]" started-at="2023-01-28T20:44:16 IST" name="login" finished-at="2023-01-28T20:44:20 IST" duration-ms="4237" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.yelo.testcases.TC2_Verify_LogIn@202b0582]" started-at="2023-02-13T21:06:14 IST" name="login" finished-at="2023-02-13T21:06:19 IST" duration-ms="4204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="AddProduct()[pri:0, instance:com.yelo.testcases.TC3_Verify_AddProduct@202b0582]" started-at="2023-01-28T20:44:20 IST" name="AddProduct" finished-at="2023-01-28T20:44:35 IST" duration-ms="14283" status="FAIL">
+        <test-method signature="verify_login_with_valid_credential()[pri:0, instance:com.yelo.testcases.TC2_Verify_LogIn@202b0582]" started-at="2023-02-13T21:06:19 IST" name="verify_login_with_valid_credential" finished-at="2023-02-13T21:06:22 IST" duration-ms="3174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_with_valid_credential -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.yelo.testcases.TC2_Verify_LogIn@202b0582]" started-at="2023-02-13T21:06:22 IST" name="logout" finished-at="2023-02-13T21:06:25 IST" duration-ms="3223" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <button _ngcontent-c32="" class="btn save-btn mt-5" type="submit">...</button> is not clickable at point (258, 597). Other element would receive the click: <div _ngcontent-c16="" class="main hide-for-sidebar ng-star-inserted">...</div>
+              <![CDATA[element click intercepted: Element <p _ngcontent-c20="" class="ng-tns-c20-3">...</p> is not clickable at point (67, 595). Other element would receive the click: <div class="ui-toast-detail">...</div>
   (Session info: chrome=108.0.5359.125)
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DELL', ip: '192.168.43.18', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.2'
+System info: host: 'DELL', ip: '192.168.1.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [74566e4857bfdaabfdea55b3c91c017d, clickElement {id=8ba2a2b1-26b1-4580-b854-a53e3cfccdce}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\DELLPC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59835}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59835/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (74566e4857bfdaabfdea55b3c91c017d)] -> xpath: //button[text()='Save Product']]
-Session ID: 74566e4857bfdaabfdea55b3c91c017d]]>
+Command: [b8268781dab9dd5798a077ef9a989044, clickElement {id=8db6e7a7-baa1-4ba1-81ab-c6a99ed0ad10}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\DELLPC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51907}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51907/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b8268781dab9dd5798a077ef9a989044)] -> xpath: (//p[text()='Logout'])[2]]
+Session ID: b8268781dab9dd5798a077ef9a989044]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-c32="" class="btn save-btn mt-5" type="submit">...</button> is not clickable at point (258, 597). Other element would receive the click: <div _ngcontent-c16="" class="main hide-for-sidebar ng-star-inserted">...</div>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <p _ngcontent-c20="" class="ng-tns-c20-3">...</p> is not clickable at point (67, 595). Other element would receive the click: <div class="ui-toast-detail">...</div>
   (Session info: chrome=108.0.5359.125)
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DELL', ip: '192.168.43.18', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.2'
+System info: host: 'DELL', ip: '192.168.1.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [74566e4857bfdaabfdea55b3c91c017d, clickElement {id=8ba2a2b1-26b1-4580-b854-a53e3cfccdce}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\DELLPC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59835}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59835/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (74566e4857bfdaabfdea55b3c91c017d)] -> xpath: //button[text()='Save Product']]
-Session ID: 74566e4857bfdaabfdea55b3c91c017d
+Command: [b8268781dab9dd5798a077ef9a989044, clickElement {id=8db6e7a7-baa1-4ba1-81ab-c6a99ed0ad10}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\DELLPC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51907}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51907/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b8268781dab9dd5798a077ef9a989044)] -> xpath: (//p[text()='Logout'])[2]]
+Session ID: b8268781dab9dd5798a077ef9a989044
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -58,14 +62,19 @@ at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Delegating
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
 at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
-at com.yelo.pageObject.homePage_add_store_product.clickOnSaveButton(homePage_add_store_product.java:69)
-at com.yelo.testcases.TC3_Verify_AddProduct.AddProduct(TC3_Verify_AddProduct.java:29)
+at com.yelo.pageObject.Homepage.Logout(Homepage.java:27)
+at com.yelo.testcases.Base_Class.logout(Base_Class.java:95)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
@@ -93,16 +102,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddProduct -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.yelo.testcases.TC3_Verify_AddProduct@202b0582]" started-at="2023-01-28T20:44:35 IST" name="logout" finished-at="2023-01-28T20:44:37 IST" duration-ms="2403" status="PASS">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.yelo.testcases.TC3_Verify_AddProduct@202b0582]" started-at="2023-01-28T20:44:37 IST" name="tearDown" finished-at="2023-01-28T20:44:39 IST" duration-ms="1662" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.yelo.testcases.TC2_Verify_LogIn@202b0582]" started-at="2023-02-13T21:06:25 IST" name="tearDown" finished-at="2023-02-13T21:06:25 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.yelo.testcases.TC3_Verify_AddProduct -->
+      </class> <!-- com.yelo.testcases.TC2_Verify_LogIn -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
